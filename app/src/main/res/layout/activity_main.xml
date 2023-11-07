@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/image_img"
+        android:src="@drawable/img"
+        android:layout_width="match_parent"
+        android:scaleType="fitXY"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:id="@+id/tv_sign_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:text="@string/tv_sing_in_text"
+        android:textColor="@color/white"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/tv_sign_inn"
+        android:text="@string/tv_sign_in"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="35dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv_sign_in_ze"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:textColor="#C5C5C5"
+        android:text="@string/tv_sign_in_ze"/>
+
+    <TextView
+        android:id="@+id/tv_in_sign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_in_sign"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:textColor="#C8C8C8"
+        android:layout_marginTop="20dp"/>
+
+    <LinearLayout
+        android:id="@+id/layout_save"
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="170dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/et_username"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/raunder"
+            android:hint="@string/et_username"
+            android:paddingStart="20dp" />
+
+        <EditText
+            android:inputType="textPassword"
+            android:id="@+id/text_password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/raunder"
+            android:hint="@string/et_password_text"
+            android:paddingStart="20dp"/>
+
+        <Button
+            android:id="@+id/btn_sign_in"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/btn_sign_in_text"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:background="@drawable/raunder_for_button"
+            app:backgroundTint="#878787" />
+
+        <TextView
+            android:id="@+id/text_password1"
+            android:text="@string/tv_sign_in_text_1"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="50dp"
+            android:textSize="15dp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tv_sign_text"
+            android:text="@string/tv_sign_text"
+            android:textColor="#FFDF15"
+            android:layout_width="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="-20dp"
+            android:layout_marginEnd="50dp"
+            android:textSize="15dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+
+</FrameLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">homeWork8</string>
+    <string name="tv_sing_in_text">Вход</string>
+    <string name="tv_sign_in">Добро пожаловать!</string>
+    <string name="tv_sign_in_ze">Выполните вход</string>
+    <string name="tv_in_sign">или зарегистируйтесь.</string>
+    <string name="et_username">Введите вашу почту</string>
+    <string name="et_password_text">Введите пароль</string>
+    <string name="btn_sign_in_text">Войти</string>
+    <string name="tv_sign_in_text_1">Забыл пароль?</string>
+    <string name="tv_sign_text">Нажми сюда</string>
+</resources>
