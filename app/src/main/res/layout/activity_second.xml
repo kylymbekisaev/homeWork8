@@ -7,7 +7,7 @@
     tools:context=".SecondActivity">
 
     <ImageView
-        android:src="@drawable/ff"
+        android:src="@drawable/img"
         android:scaleType="fitXY"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
